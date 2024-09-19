@@ -40,7 +40,7 @@ namespace BDA.Controllers
 			return CreatedAtAction(nameof(GetCustomers), new { id = customer.Id }, customer);
 		}
 
-		[HttpPost("Merhaba")]
+		[HttpPost("GET DATA 2")]
 		public IActionResult Post([FromBody] Customers customer)
 		{
 			if (!ModelState.IsValid)
